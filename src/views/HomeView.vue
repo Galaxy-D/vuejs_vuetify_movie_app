@@ -1,15 +1,18 @@
 <template>
-  <hello-world />
+  <div>
+    <PopularMovies/>
+    <UpComingMovies/>
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
-
+  import PopularMovies from '../components/PopularMovies.vue';
+  import UpComingMovies from '../components/UpComingMovies.vue';
   export default {
-    name: 'Home',
-
+    name: 'HomeView',
     components: {
-      HelloWorld,
+      PopularMovies,
+      UpComingMovies
     },
   }
 </script>
