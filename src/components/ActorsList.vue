@@ -8,14 +8,10 @@
             </v-col>
             <v-col cols="12" class="d-flex justify-center mt-5">
                 <v-btn class="mx-2" fab dark small color="error" v-on:click.prevent="previous()">
-                    <v-icon dark>
-                        fas fa-step-backward
-                    </v-icon>
+                    <v-icon dark>fas fa-step-backward</v-icon>
                 </v-btn>
                 <v-btn class="mx-2" fab dark small color="error" v-on:click.prevent="next()">
-                    <v-icon dark>
-                        fas fa-step-forward
-                    </v-icon>
+                    <v-icon dark>fas fa-step-forward</v-icon>
                 </v-btn>
             </v-col>
         </v-row>
